@@ -7,7 +7,7 @@ for test_case in range(1, T + 1):
     cnt = 0
     a, b, n = map(int, input().split())
     while(True):
-        cnt++
+        cnt+=1
         if a>b:
             b+=a
             if b>n:
@@ -16,4 +16,4 @@ for test_case in range(1, T + 1):
             a+=b
             if a>n:
                 break
-	print(cnt)
+    print(cnt)
